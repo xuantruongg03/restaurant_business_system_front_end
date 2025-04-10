@@ -1,4 +1,56 @@
-# Welcome to your Lovable project
+# Restaurant Business System Frontend
+
+A modern web application for managing restaurant operations built with React and TypeScript.
+
+## 🚀 Features
+
+- Modern and responsive UI
+- User authentication and authorization
+- Restaurant menu management
+- Order processing system
+- Table management
+- Staff management
+- Real-time updates
+- Analytics and reporting
+
+## 🛠️ Technologies
+
+- **Framework:** React
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **UI Components:** shadcn/ui
+- **State Management:** [Your state management solution]
+- **API Integration:** [Your API solution]
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/xuantruongg03/restaurant_business_system_front_end.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd restaurant_business_system_front_end
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Create a `.env` file in the root directory and add necessary environment variables:
+```env
+VITE_API_URL=your_api_url_here
+```
+
+5. Start the development server:
+```bash
+npm run dev
+```
+
+## 🏗️ Project Structure
 
 ## Project info
 
@@ -49,16 +101,6 @@ npm run dev
 - Select the "Codespaces" tab.
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
 ## How can I deploy this project?
 
