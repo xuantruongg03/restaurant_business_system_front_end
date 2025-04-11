@@ -17,7 +17,7 @@ const FoodCard: React.FC<FoodCardProps> = ({ food, idTable }) => {
   const { order, isPendingOrder } = useUserOrder();
 
   const handleOrder = () => {
-    order({ idTable: idTable, idFood: food.idFood, quantity: 1 }).then((res) => {
+    order({ idTable: idTable, idFood: food.idFood, quantity: quantity }).then((res) => {
       alert('Đặt món thành công');
       window.location.reload();
       window.scrollTo(0, window.scrollY);
